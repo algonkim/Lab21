@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="love_android">I love Android</string>
+    <string name="press">Press me</string>
+    <string name="check">Check this out!</string>
+    <string name="edittext">I love Android</string>
+    <string name="hint">hint</string>
+    <string name="checkbox">The checkbox is now</string>
+    <string name="toast_message">Label has been updated.</string>
+    <string name="checkbox_status">The checkbox is now</string>
+    <string name="undo">Undo</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="Switch_on_off">Switch on/off</string>
+    <string name="checkbox_is_now">Checkbox is now</string>
+
+</resources>

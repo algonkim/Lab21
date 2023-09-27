@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Laboratoire 2</string>
+    <string name="love_android">J\'aime Android</string>
+    <string name="press">Appuyez sur moi</string>
+    <string name="check">Regardez ça !</string>
+    <string name="edittext">Android</string>
+    <string name="hint">J\'aime Android</string>
+    <string name="checkbox">La case à cocher est maintenant</string>
+    <string name="toast_message">L\'étiquette a été mise à jour</string>
+    <string name="checkbox_status">La case à cocher est maintenant</string>
+    <string name="undo">Annuler</string>
+    <string name="on">activée</string>
+    <string name="off">désactivée</string>
+    <string name="Switch_on_off">Activation/désactivation de la sorcière</string>
+    <string name="checkbox_is_now">La case à cocher est maintenant</string>
+
+</resources>

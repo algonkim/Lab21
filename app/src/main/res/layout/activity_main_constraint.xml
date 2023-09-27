@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:rowCount="4"
+    android:columnCount="2"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="@string/love_android"
+            android:textSize="30dp"/>
+
+        <Switch
+            android:id="@+id/switchw"
+            android:layout_below="@+id/firstText"
+            android:layout_width="209dp"
+            android:layout_height="88dp"
+            android:textSize="18sp"
+            android:text="@string/Switch_on_off" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_below="@+id/switchw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/press" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="210dp"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/button3"
+            android:hint="@string/edittext" />
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_toRightOf="@+id/firstText"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"/>
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_below="@+id/button1"
+            android:layout_toRightOf="@+id/button3"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:text="@string/check" />
+
+
+
+</RelativeLayout>
